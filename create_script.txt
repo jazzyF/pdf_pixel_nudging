@@ -1,0 +1,22 @@
+// Install required libraries
+bash
+
+pip install reportlab pypdf --break-system-packages -q
+
+
+// Create a sample PDF template to demonstrate against
+create_template.py
+
+// Generate the template PDF
+bash
+
+cd /dev/src && python create_template.py
+Output
+
+Template created: template.pdf
+
+
+Run the proof of concept
+bash
+
+cd /dev/src && python fill_pdf.py
