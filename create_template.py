@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 
 def create_template():
-    c = canvas.Canvas("/home/claude/template.pdf", pagesize=letter)
+    c = canvas.Canvas("/dev/src/template.pdf", pagesize=letter)
     width, height = letter  # 612 x 792 points
 
     # Title
