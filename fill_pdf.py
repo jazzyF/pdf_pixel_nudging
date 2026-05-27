@@ -113,6 +113,6 @@ def merge_onto_template(template_path: str, output_path: str):
 # ── Run ────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     merge_onto_template(
-        template_path="/home/claude/template.pdf",
+        template_path="/dev/src/template.pdf",
         output_path="/mnt/user-data/outputs/filled_form.pdf",
     )
